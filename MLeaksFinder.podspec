@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'MLeaksFinder/MLeaksFinder.h', 'MLeaksFinder/NSObject+MemoryLeak.h'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'FBRetainCycleDetector'
+  s.dependency 'FBRetainCycleDetector'
 end
